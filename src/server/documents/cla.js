@@ -31,7 +31,8 @@ let index = {
 };
 let indexOptions = {
     unique: true,
-    background: true
+    background: true,
+    name: 'cla-index'
 };
 
 let CLA = mongoose.model('CLA', CLASchema);
